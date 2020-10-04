@@ -7,27 +7,31 @@
 </head>
 <body>
 <form>	
+	
 	<div id="container">
-		<h1> Weight Calculator </h1>
+		<h1 id ="firstH"> Weight Calculator </h1>
+		<hr width="500px">
 		<div id="Calculator">
 			<p>calculte your perfect weight</p>
 			<br/>
 			<label> Gender : </label>
-			<input type="radio" id="fgender" name="gender" value ="l"/>female 
+			<input type="radio" id="fgender" name="gender" />female 
 			<input type="radio" id="mgender" name="gender" />male
 			<br/><br/>
 			<label> input your height: </label>
-			<input type="text" id="inputHeight">
+			<input type="text" id="inputHeight" placeholder=" height"/>
 			<br/><br/>
-			<label> your perfect Weight is : </label>
-			<input type="text" id="perfectWeight">
-
+			<label>Enter Your Current Weight:  </label>
+			<input type="text" id="current" placeholder="Current Weight"/>
+			<br/><br/>
+			
 
 		</div>
 		<div id="BMI">
-			<br/><br/>
-			<label>Enter Your Current Weight:  </label>
-			<input type="text" id="current">
+
+			<label> your perfect Weight is : </label>
+			<input type="text" id="perfectWeight">
+
 			<br/><br/>
 			<label> Your BMI is :  </label>
 			<input type="text" id="yourBMI">
