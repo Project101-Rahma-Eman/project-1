@@ -9,7 +9,7 @@ $("#fgender").click(function(){
 		$("#perfectWeight").hover(function(){
 
 		if($("#inputHeight").val()===''){
-			alert("please enter your height")
+
 		}else{ 
 		
 		var heigh= $("#inputHeight").val()
@@ -32,7 +32,7 @@ $("#mgender").click(function(){
 		$("#perfectWeight").hover(function(){
 
 		if($("#inputHeight").val()===''){
-			alert("please enter your height")
+
 		}else{ 
 		
 		var heigh= $("#inputHeight").val()
@@ -47,18 +47,4 @@ $("#mgender").click(function(){
 }
 })
 	})
-
-		$("#current").hover(function(){
-
-		
-			var weight = $("#current").val();
-	    var height = $("#inputHeight").val();
-			var bmi =( weight / (height*height))*10000;
-			$("#yourBMI").val(bmi);
-			
-			
-})
-
-
-
 
