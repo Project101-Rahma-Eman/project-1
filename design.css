@@ -8,22 +8,21 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-image:url("2659284.jpg");
   background-size: cover;
-}
-
-
+}/*CSS style for body*/
+​
+​
 #container {
   height: 600px;
   width: 400px;
   margin: 100px auto;
-  padding: 20px;
   background: #f7f7f7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 30px;
-}
-
-
+}/*CSS style for container ("div ")*/
+​
+​
 h1 {
 	text-align: center;
   background: #1F030C;
@@ -35,9 +34,9 @@ h1 {
   font-weight: normal;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-
+}/*CSS style for header*/
+​
+​
 form input[type="text"] {
    width: 30%;
   padding: 12px 15px;
@@ -45,4 +44,20 @@ form input[type="text"] {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border}
+  box-sizing: border-box;
+​
+}/*CSS style for text boxes*/
+input {
+  padding-left: 10px;
+}/*CSS style for text boxes*/
+​
+​
+label{
+	padding-left:10px;
+	font-weight: bold;
+}/*CSS style for for labels */
+​
+p{
+	text-align: center;
+	font-weight: bold;
+}/*CSS style for paragaph*/
