@@ -1,0 +1,10 @@
+This is simple weight calaculator 
+first step : user should specify the gender 
+second step : the user should enter the current weight 
+       - if user not enter any of these values , it will be alert to complete entering the values 
+third step : the perfect weight wil calaculate as this :
+           -if the user specify the gender as female --> perfect weight= height -110;
+           -if the user specify the gender as male --> perfect weight= height -100;
+
+ fourth step : calculate BMI 
+               BMI = weight / (height*height)
